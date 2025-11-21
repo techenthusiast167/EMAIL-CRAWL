@@ -127,8 +127,18 @@ Advanced Crawling Engine
 
 **Quick Installation**
 
+Visit the link below to get the script, then use nano to install it:
 
-Folow the url below to install the tool manually using Nano...
+….
+
+**Step-by-Step**:
+
+• Click on the link below to access the script
+
+• Copy the script content
+
+• Use nano to create and install the tool
+
 
 
 **Install dependencies**
