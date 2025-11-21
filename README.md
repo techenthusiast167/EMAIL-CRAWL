@@ -76,7 +76,9 @@ OSINT Intelligence Gathering
 **Primary Use Cases**:
 
 • Threat Intelligence - Identify key personnel in target organizations
+
 • Attack Surface Mapping - Discover contact points for social engineering
+
 • Corporate Reconnaissance - Map organizational structure via email patterns
 
 
@@ -86,14 +88,19 @@ CYBERSECURITY APPLICATION
 **Defensive Security**:
 
 • External Threat Assessment - Understand what email information is publicly exposed
+
 • Phishing Defense - Identify emails that could be targeted in phishing campaigns
+
 • Security Awareness - Demonstrate information exposure to employees
 
 **Offensive Security**:
 
 • Penetration Testing - Email discovery for authorized security assessments
+
 • Red Team Operations - Social engineering preparation and reconnaissance
+
 • Vulnerability Assessment - Identify information disclosure risks
+
 • Investigative Research - Gather contact information for legal investigations
 
 
