@@ -28,19 +28,10 @@
 
 EmailCrawl is a specialized reconnaissance tool that systematically crawls websites and their subdirectories to extract valid email addresses. Unlike generic web scrapers, it employs advanced validation algorithms to filter out false positives and identify legitimate contact information.
 
-
-```bash
-███████╗███╗   ███╗ █████╗ ██╗██╗       ██████╗██████╗  █████╗ ██╗    ██╗██╗     
-██╔════╝████╗ ████║██╔══██╗██║██║      ██╔════╝██╔══██╗██╔══██╗██║    ██║██║     
-█████╗  ██╔████╔██║███████║██║██║█████╗██║     ██████╔╝███████║██║ █╗ ██║██║     
-██╔══╝  ██║╚██╔╝██║██╔══██║██║██║╚════╝██║     ██╔══██╗██╔══██║██║███╗██║██║     
-███████╗██║ ╚═╝ ██║██║  ██║██║███████╗ ╚██████╗██║  ██║██║  ██║╚███╔███╔╝███████╗
-╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚══════╝  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚══════╝
+---
 
 
-
-
-KEY FEATURES
+## KEY FEATURES
 
 Advanced Crawling Engine
 
@@ -53,7 +44,7 @@ Advanced Crawling Engine
     Respectful Crawling - Built-in delays and proper user-agent headers
 
 
-SMART EMAIL EXTRACTION
+## SMART EMAIL EXTRACTION
 
     Multi-Source Extraction - Visible text, meta tags, and mailto links
 
@@ -64,7 +55,7 @@ SMART EMAIL EXTRACTION
     Duplicate Prevention - Automatic deduplication of found emails
 
 
-PROFESSIONAL FEATURES
+## PROFESSIONAL FEATURES
 
     Proxy Support - HTTP/SOCKS proxy integration for anonymity
 
@@ -77,12 +68,12 @@ PROFESSIONAL FEATURES
 
 
 
-IMPORTANCE IN OSINT & CYBERSECURITY
+## IMPORTANCE IN OSINT & CYBERSECURITY
 
 OSINT Intelligence Gathering
 
 
-Primary Use Cases:
+**Primary Use Cases**:
 
 • Threat Intelligence - Identify key personnel in target organizations
 • Attack Surface Mapping - Discover contact points for social engineering
@@ -92,13 +83,13 @@ Primary Use Cases:
 CYBERSECURITY APPLICATION
 
 
-Defensive Security:
+**Defensive Security**:
 
 • External Threat Assessment - Understand what email information is publicly exposed
 • Phishing Defense - Identify emails that could be targeted in phishing campaigns
 • Security Awareness - Demonstrate information exposure to employees
 
-Offensive Security:
+**Offensive Security**:
 
 • Penetration Testing - Email discovery for authorized security assessments
 • Red Team Operations - Social engineering preparation and reconnaissance
@@ -107,7 +98,7 @@ Offensive Security:
 
 
 
-STRATEGIC VALUE
+## STRATEGIC VALUE
 
     Early Warning System - Detect exposed email addresses before attackers do
 
@@ -119,51 +110,51 @@ STRATEGIC VALUE
 
 
 
-INSTALLATION
+## INSTALLATION
 
-Prerequisites
+**Prerequisites**
 
     Python 3.6 or higher
 
     pip package manager
 
-Quick Installation
+**Quick Installation**
 
 
 Folow the url below to install the tool manually using Nano...
 
 
-Install dependencies
+**Install dependencies**
 
      pip install requests beautifulsoup4 tldextract colorama
 
 
-USAGE
+## USAGE
 
-Basic Command
+**Basic Command**
 
       python3 emailcrawl.py https://example.com
 
 
-DEEP RECONNAISSANCE WITH CUSTOM LIMITS
+**Deep Reconnaissance With Custom Limits**
 
     python3 emailcrawl.py https://example.com --max-pages 500 --max-depth 4
 
 
 
-WITH PROXY FOR OPERATIONAL SECURITY
+**With Proxy For Operational Security**
 
      python3 emailcrawl.py https://example.com --proxy http://127.0.0.1:8080
 
 
-CUSTOM OUTPUT AND FASTER CRAWLING
+**Custom Output And Faster Crawling**
 
      python3 emailcrawl.py https://example.com --delay 0.5
 
 
-FULL COMMAND REFERENCE
+## FULL COMMAND REFERENCE
 
-Option	 Description	  Default
+**Option	 Description	  Default**
 
 --max-pages NUM	  Maximum pages to crawl	> 200
 --max-depth NUM	  Maximum crawl depth	>  3
@@ -173,9 +164,9 @@ Option	 Description	  Default
 -h, --help	S     how help message	 > N/A
 
 
-OOUPUT EXAMPLES
+## OUTPUT EXAMPLES
 
-Real-Time Discovery
+**Real-Time Discovery**
 
 [EMAIL] Found: john.doe@company.com (mailto link from: https://company.com/contact)
 [EMAIL] Found: sarah.wilson@company.com (from: https://company.com/team)
@@ -183,7 +174,7 @@ Real-Time Discovery
 
 
 
-SUMMARY REPORT
+## SUMMARY REPORT
 
 
 ============================================================
@@ -193,32 +184,32 @@ EMAILCRAWL - EXTRACTION SUMMARY
 [STATS] Unique Emails Found: 23
 [STATS] Crawl Duration: 45.32 seconds
 
-EMAIL DOMAINS DISTRIBUTION:
+**EMAIL DOMAINS DISTRIBUTION**:
 
   company.com: 18 emails
   gmail.com: 3 emails
   outlook.com: 2 emails
 
-UNIQUE EMAILS EXTRACTED:
+**UNIQUE EMAILS EXTRACTED**:
 
   admin@company.com
   info@company.com
   john.doe@company.com
 
 
-LEGAL & ETHICAL CONSIDERATION
+## LEGAL & ETHICAL CONSIDERATION
 
 Authorized Use Only
 
 
-LEGAL USES:
+### LEGAL USES:
 
 ✓ Security assessments with explicit permission
 ✓ Your own websites and applications
 ✓ Public bug bounty programs
 ✓ Academic research with ethics approval
 
-ILLEGAL USES:
+### ILLEGAL USES:
 
 ✗ Unauthorized access to systems
 ✗ Harassment or spam campaigns
@@ -226,7 +217,7 @@ ILLEGAL USES:
 ✗ Violation of terms of service
 
 
-RESPONSIBLE DISCLOSURE
+## RESPONSIBLE DISCLOSURE
 
     Always obtain proper authorization before scanning
 
@@ -237,10 +228,11 @@ RESPONSIBLE DISCLOSURE
     Report discovered vulnerabilities responsibly
 
 
-CONTRIBUTING
+## CONTRIBUTING
 
-I welcome contributions from the security community!
-Areas for Improvement
+The author welcome contributions from the security community!
+
+**Areas for Improvement**:
 
     Enhanced email pattern recognition
 
@@ -249,12 +241,13 @@ Areas for Improvement
     Integration with other OSINT tools
 
     Performance optimizations
+    
 
-Contribution Process
+**Contribution Process**
 
-1. Fork the repository
+    Fork the repository
 
-2. Create a feature branch
+    Create a feature branch
 
-3. Submit a pull request with comprehensive testing
+    Submit a pull request with comprehensive testing
 
