@@ -129,7 +129,7 @@ Advanced Crawling Engine
 
 Visit the link below to get the script, then use nano to install it:
 
-….
+**https://gist.github.com/techenthusiast167/6de049a8260cf8c53d424aeb7ff8402d**
 
 **Step-by-Step**:
 
