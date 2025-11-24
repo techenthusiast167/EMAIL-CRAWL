@@ -125,7 +125,7 @@ Advanced Crawling Engine
 
     pip package manager
 
-**Quick Installation**
+**Quick Manual Installation**
 
 Visit the link below to get the script, then use nano to install it:
 
