@@ -35,35 +35,35 @@ EmailCrawl is a specialized reconnaissance tool that systematically crawls websi
 
 Advanced Crawling Engine
 
-• **Intelligent URL Discovery** - Parses robots.txt, sitemaps, and HTML content
+* **Intelligent URL Discovery** - Parses robots.txt, sitemaps, and HTML content
 
-• **Configurable Depth Control** - Adjustable crawl depth and page limits
+* **Configurable Depth Control** - Adjustable crawl depth and page limits
 
-• **Same-Domain Focus** - Stays targeted on the specified domain
+* **Same-Domain Focus** - Stays targeted on the specified domain
 
-• **Respectful Crawling** - Built-in delays and proper user-agent headers
+* **Respectful Crawling** - Built-in delays and proper user-agent headers
 
 
 ## SMART EMAIL EXTRACTION
 
-• **Multi-Source Extraction** - Visible text, meta tags, and mailto links
+* **Multi-Source Extraction** - Visible text, meta tags, and mailto links
 
-• **Advanced Validation** - Sophisticated false positive filtering
+* **Advanced Validation** - Sophisticated false positive filtering
 
-• **Real-Time Discovery** - Live email detection with source URLs
+* **Real-Time Discovery** - Live email detection with source URLs
 
-• **Duplicate Prevention** - Automatic deduplication of found emails
+* **Duplicate Prevention** - Automatic deduplication of found emails
 
 
 ## PROFESSIONAL FEATURES
 
-• **Proxy Support** - HTTP/SOCKS proxy integration for anonymity
+* **Proxy Support** - HTTP/SOCKS proxy integration for anonymity
 
-• **Comprehensive Reporting** - JSON and TXT output formats
+* **Comprehensive Reporting** - JSON and TXT output formats
 
-• **Domain Analysis** - Email distribution by domain
+* **Domain Analysis** - Email distribution by domain
 
-• **Performance Metrics** - Detailed crawl statistics and timing
+* **Performance Metrics** - Detailed crawl statistics and timing
 
 
 
@@ -75,11 +75,11 @@ Advanced Crawling Engine
 
 **Primary Use Cases**:
 
-• **Threat Intelligence** - Identify key personnel in target organizations
+* **Threat Intelligence** - Identify key personnel in target organizations
 
-• **Attack Surface Mapping** - Discover contact points for social engineering
+* **Attack Surface Mapping** - Discover contact points for social engineering
 
-• **Corporate Reconnaissance** - Map organizational structure via email patterns
+* **Corporate Reconnaissance** - Map organizational structure via email patterns
 
 
 ## CYBERSECURITY APPLICATION
@@ -87,33 +87,33 @@ Advanced Crawling Engine
 
 **Defensive Security**:
 
-• **External Threat Assessment** - Understand what email information is publicly exposed
+* **External Threat Assessment** - Understand what email information is publicly exposed
 
-• **Phishing Defense** - Identify emails that could be targeted in phishing campaigns
+* **Phishing Defense** - Identify emails that could be targeted in phishing campaigns
 
-• **Security Awareness** - Demonstrate information exposure to employees
+* **Security Awareness** - Demonstrate information exposure to employees
 
 **Offensive Security**:
 
-• **Penetration Testing** - Email discovery for authorized security assessments
+* **Penetration Testing** - Email discovery for authorized security assessments
 
-• **Red Team Operations** - Social engineering preparation and reconnaissance
+* **Red Team Operations** - Social engineering preparation and reconnaissance
 
-• **Vulnerability Assessment** - Identify information disclosure risks
+* **Vulnerability Assessment** - Identify information disclosure risks
 
-• **Investigative Research** - Gather contact information for legal investigations
+* **Investigative Research** - Gather contact information for legal investigations
 
 
 
 ## STRATEGIC VALUE
 
-• **Early Warning System** - Detect exposed email addresses before attackers do
+* **Early Warning System** - Detect exposed email addresses before attackers do
 
-• **Attack Prevention** - Proactively secure vulnerable contact points
+* **Attack Prevention** - Proactively secure vulnerable contact points
 
-• **Compliance** - Identify GDPR/Privacy Act compliance issues
+* **Compliance** - Identify GDPR/Privacy Act compliance issues
 
-• **Risk Management** - Quantify organizational exposure through public data
+* **Risk Management** - Quantify organizational exposure through public data
 
 
 
@@ -125,6 +125,9 @@ Advanced Crawling Engine
 
     pip package manager
 
+    A separate directory dedicated for this project. Create using ```mkdir OSINT```, where 'OSINT' is the directory's name.
+
+
 **Quick Manual Installation**
 
 Visit the link below to get the script, then use nano to install it:
@@ -133,17 +136,21 @@ Visit the link below to get the script, then use nano to install it:
 
 **Step-by-Step**:
 
-• Click on the link below to access the script
+* Click on the link below to access the script
 
-• Copy the script content
+* Copy the script content
 
-• Use nano to create and install the tool
+* Use 'sudo nano' to open a file, then paste the code.
 
 
 
 **Install dependencies**
 
-     pip install requests beautifulsoup4 tldextract colorama
+     For pip to work on your Linux terminal, you need to create a virtual environment inside the directory you used for this project. using ```python3 -m venv venv```
+
+     Activate it using: ```source venv/bin/activate```
+
+     Install dependencies using ```pip install requests beautifulsoup4 tldextract colorama```
 
 
 ## USAGE
@@ -189,6 +196,8 @@ Visit the link below to get the script, then use nano to install it:
 ## OUTPUT EXAMPLES
 
 **Real-Time Discovery**
+
+If you created a separate directory for thisnproject, all your outputs will save to that directory, keeping everything neat and easilly accessible.
 
 [EMAIL] Found: john.doe@company.com (mailto link from: https://company.com/contact)
 [EMAIL] Found: sarah.wilson@company.com (from: https://company.com/team)
