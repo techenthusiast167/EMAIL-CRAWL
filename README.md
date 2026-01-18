@@ -228,6 +228,10 @@ Below are updated, direct instructions for installing EmailCrawl v2.0. The same 
 
     python3 EmailCrawl.py https://target-company.com
 
+• With SSL verification disabled (for testing only)
+
+    python3 emailcrawl.py https://example.com --no-verify-ssl
+
 • Deep crawl with custom limits
 
     python3 EmailCrawl.py https://target-company.com --max-pages 500 --max-depth 4
