@@ -169,26 +169,56 @@ Pattern Analysis → Tabular Reporting → Intelligence Output
 - **Network:** Stable internet connection
 
 
+**Installation Instructions**
 
-**Quick Manual Installation**
-
-Visit the link below to get the script, then use nano to install it:
-
-**https://gist.github.com/techenthusiast167/6de049a8260cf8c53d424aeb7ff8402d**
-
-**Step-by-Step**:
-
-• Click on the link below to access the script
-
-• Copy the script content
-
-• Use nano to create and install the tool
+Below are updated, direct instructions for installing EmailCrawl v2.0. The same steps apply if you want to install v1.0 by simply swapping the link.
 
 
+**Step 1: Download the Script**
 
-**Dependencies  Installation**
+→ Visit the **EmailCrawl v2.0** script page: https://gist.github.com/techenthusiast167/a2cf047c8244d750b83dc3603336b982
 
-    pip install requests beautifulsoup4 colorama tldextract tabulate lxml
+→ Click the **Raw** button at the top-right of the script window. This will show just the code text.
+
+→ Copy the URL from your browser's address bar while you are on the "Raw" page (it should look like: https://gist.githubusercontent.com/.../raw/...)
+
+
+**Step 2: Install Using Nano**
+
+→ Open your terminal and run the following commands:
+
+
+**Step 1: Download the script directly using wget with the 'Raw' link**
+
+→ wget -O EmailCrawl.py [paste_the_raw_url_here]
+
+
+**Step 2: Open the script in nano for verification**
+
+→  nano EmailCrawl.py
+
+
+**(Optional) Step 3: Make the script executable**
+
+→  chmod +x EmailCrawl.py
+
+**Step 4: Install the required Python dependencies**
+
+    pip3 install requests beautifulsoup4 colorama tldextract tabulate lxml
+
+
+**Quick Start Command (After Installation)**
+
+→ Once installed, you can run the tool immediately:
+
+
+**Check the help menu**
+
+    python3 EmailCrawl.py --help
+
+
+**Note**: If you prefer to install **EmailCrawl v1.0**, simply replace the link in Step 1 with: https://gist.github.com/techenthusiast167/6de049a8260cf8c53d424aeb7ff8402d and follow the same steps.
+
 
 ## 7. Usage Guide
 
