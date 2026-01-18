@@ -176,7 +176,7 @@ Below are updated, direct instructions for installing EmailCrawl v2.0. The same 
 
 **Step 1: Download the Script**
 
-→ Visit the **EmailCrawl v2.0** script page: https://gist.github.com/techenthusiast167/a2cf047c8244d750b83dc3603336b982
+→ Visit the **EmailCrawl v2.0** script page: https://gist.github.com/techenthusiast167/ed827569e6c464b042bbdd2a53847675
 
 → Click the **Raw** button at the top-right of the script window. This will show just the code text.
 
