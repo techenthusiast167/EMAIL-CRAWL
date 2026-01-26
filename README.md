@@ -173,34 +173,19 @@ Pattern Analysis → Tabular Reporting → Intelligence Output
 
 Below are updated, direct instructions for installing EmailCrawl v2.0. The same steps apply if you want to install v1.0 by simply swapping the link.
 
-
-**Step 1: Download the Script**
-
-→ Visit the **EmailCrawl v2.0** script page: https://gist.github.com/techenthusiast167/ed827569e6c464b042bbdd2a53847675
-
-→ Click the **Raw** button at the top-right of the script window. This will show just the code text.
-
-→ Copy the URL from your browser's address bar while you are on the "Raw" page (it should look like: https://gist.githubusercontent.com/.../raw/...)
-
-
-**Step 2: Install Using Nano**
-
-→ Open your terminal and run the following commands:
-
-
 **Step 1: Download the script directly using wget with the 'Raw' link**
 
-→ wget -O EmailCrawl.py [paste_the_raw_url_here]
+    wget -O EmailCrawl.py https://gist.github.com/techenthusiast167/ed827569e6c464b042bbdd2a53847675
 
 
 **Step 2: Open the script in nano for verification**
 
-→  nano EmailCrawl.py
+    nano EmailCrawl.py
 
 
 **(Optional) Step 3: Make the script executable**
 
-→  chmod +x EmailCrawl.py
+    chmod +x EmailCrawl.py
 
 **Step 4: Install the required Python dependencies**
 
@@ -217,7 +202,7 @@ Below are updated, direct instructions for installing EmailCrawl v2.0. The same 
     python3 EmailCrawl.py --help
 
 
-**Note**: If you prefer to install **EmailCrawl v1.0**, simply replace the link in Step 1 with: https://gist.github.com/techenthusiast167/6de049a8260cf8c53d424aeb7ff8402d and follow the same steps.
+**Note**: If you prefer to install **EmailCrawl v1.0**, simply replace the link in **Step 1** with: https://gist.github.com/techenthusiast167/6de049a8260cf8c53d424aeb7ff8402d and follow the same steps.
 
 
 ## 7. Usage Guide
