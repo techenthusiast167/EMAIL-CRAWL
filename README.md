@@ -171,7 +171,7 @@ Pattern Analysis → Tabular Reporting → Intelligence Output
 
 **Installation Instructions**
 
-Below are updated, direct instructions for installing EmailCrawl v2.0. The same steps apply if you want to install v1.0 by simply swapping the link.
+Below are updated, direct instructions for installing EmailCrawl v3.0. The same steps apply if you want to install v1.0 by simply swapping the link.
 
 **Step 1: Download the script directly using wget with the 'Raw' link**
 
@@ -190,11 +190,6 @@ Below are updated, direct instructions for installing EmailCrawl v2.0. The same 
 **Step 4: Install the required Python dependencies**
 
     pip3 install requests beautifulsoup4 colorama tldextract tabulate lxml
-
-
-**Quick Start Command (After Installation)**
-
-→ Once installed, you can run the tool immediately:
 
 
 **Check the help menu**
