@@ -175,7 +175,7 @@ Below are updated, direct instructions for installing EmailCrawl v3.0. The same 
 
 **Step 1: Download the script directly using wget with the 'Raw' link**
 
-    wget -O EmailCrawl.py https://gist.github.com/techenthusiast167/ed827569e6c464b042bbdd2a53847675
+    wget -O EmailCrawl.py https://gist.githubusercontent.com/techenthusiast167/ed827569e6c464b042bbdd2a53847675/raw/cf9feb2b4bcb511c9a91c71546c3f7d1fa73f497/EmailCrawl.py
 
 
 **Step 2: Open the script in nano for verification**
